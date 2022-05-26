@@ -1,31 +1,30 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32505.173
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GENDER IDENDITY", "GENDER IDENDITY.vcxproj", "{5F267AA9-4756-46B9-8A39-8A94BB211BFB}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5F267AA9-4756-46B9-8A39-8A94BB211BFB}.Debug|x64.ActiveCfg = Debug|x64
-		{5F267AA9-4756-46B9-8A39-8A94BB211BFB}.Debug|x64.Build.0 = Debug|x64
-		{5F267AA9-4756-46B9-8A39-8A94BB211BFB}.Debug|x86.ActiveCfg = Debug|Win32
-		{5F267AA9-4756-46B9-8A39-8A94BB211BFB}.Debug|x86.Build.0 = Debug|Win32
-		{5F267AA9-4756-46B9-8A39-8A94BB211BFB}.Release|x64.ActiveCfg = Release|x64
-		{5F267AA9-4756-46B9-8A39-8A94BB211BFB}.Release|x64.Build.0 = Release|x64
-		{5F267AA9-4756-46B9-8A39-8A94BB211BFB}.Release|x86.ActiveCfg = Release|Win32
-		{5F267AA9-4756-46B9-8A39-8A94BB211BFB}.Release|x86.Build.0 = Release|Win32
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {06F85C63-7E98-4235-81D9-40E0AD89A830}
-	EndGlobalSection
-EndGlobal
+
+#include <iostream>
+using namespace
+#include string
+
+int main( ) {
+
+
+
+
+
+    string idnumber;
+    cout << "Please enter your idnumber" << endl;
+    cin >> idnumber;
+
+
+
+    if (idnumber, 6 < 4) {
+        cout << "female";
+
+    else if (idnumber, 6 > 5) {
+        cout << "male";
+
+    }
+
+
+    return 0;
+
+    }
